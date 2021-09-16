@@ -42,10 +42,6 @@ footer_links:
     url: feed.xml
     icon: fa fa-rss-square
 
-  - title: Twitter
-    url: 
-    icon: 
-
   - title: GitHub
     url: https://github.com/nibl
     icon: fa fa-github-square
