@@ -3,6 +3,35 @@
 
 @import "variables";
 
+
+/* Automatic dark/light mode detection */
+@media(prefers-color-scheme:dark){
+	body{
+		background-color:#000;
+		color:#ccc
+	}
+	a{
+		color:#88f
+	}
+	a:visited{
+		color:#aaf
+	}
+	.response{
+		background-color:#444
+	}
+	h1,h2,h3,a{
+		/*color: #76b2e1;*/
+        color: #d7d7d7;
+	}
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: white;
+    color: black;
+  }
+}
+
+
 html {
   font-size: 100%;
 }
