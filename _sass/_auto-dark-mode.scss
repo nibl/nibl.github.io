@@ -1,0 +1,22 @@
+/* Automatic dark/light mode detection */
+@media(prefers-color-scheme:dark){
+	body, footer, header {
+		background-color:#000;
+		color:#ccc
+	}
+	a{
+		color:#88f
+	}
+	a:visited{
+		color:#aaf
+	}
+	h1,h2,h3,a{
+        color: #d7d7d7;
+	}
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: white;
+    color: black;
+  }
+}

@@ -603,32 +603,6 @@ footer {
   }
 }
 
-/* Automatic dark/light mode detection */
-@media(prefers-color-scheme:dark){
-	body{
-		background-color:#000;
-		color:#ccc
-	}
-	a{
-		color:#88f
-	}
-	a:visited{
-		color:#aaf
-	}
-	.response{
-		background-color:#444
-	}
-	h1,h2,h3,a{
-		/*color: #76b2e1;*/
-        color: #d7d7d7;
-	}
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: white;
-    color: black;
-  }
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
@@ -641,3 +615,4 @@ footer {
 @import "search";
 @import "video";
 @import "mermaid";
+@import "auto-dark-mode";
