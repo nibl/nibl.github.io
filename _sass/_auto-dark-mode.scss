@@ -1,6 +1,6 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
-	body, footer, header {
+	:root {
 		background-color:#000;
 		color:#ccc
 	}
@@ -10,9 +10,18 @@
 	a:visited{
 		color:#aaf
 	}
-	h1,h2,h3,a{
+	h1,h2,h3,h4,h5,h6,a{
         color: #d7d7d7;
 	}
+	.social-icon {
+    color: $paleGray;
+    
+      &:hover {
+      color: $lightGray;
+      }
+      .site-description {
+  color: $white;
+  }
 }
 @media (prefers-color-scheme: light) {
   :root {

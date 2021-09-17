@@ -42,7 +42,7 @@ ul, ol, dl, figure,
 
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
-  color: $darkerGray;
+  //color: $darkerGray;
   font-family: $sans-font-family;
   font-weight: 700;
   line-height: 1.66666666667;
@@ -342,18 +342,18 @@ table {
     margin-top: 30px;
   }
   
-  tr {
-    &:nth-child(even) {
-      background-color: #efefef;
-    }
-  }
+  // tr {
+  //   &:nth-child(even) {
+  //     background-color: #efefef;
+  //   }
+  // }
   
   th, td {
     padding: 10px 15px;
   }
   
   th {
-    background-color: #efefef;
+    // background-color: #efefef;
     border: 01px solid #dddddd;
   }
   
@@ -409,7 +409,7 @@ a[href^="#fnref:"] {
   display: flex;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 01px solid $lightGray;
+  // border-bottom: 01px solid $lightGray;
 
   @include mobile {
     display: block;
@@ -527,7 +527,7 @@ a.nav-menu-item:focus {
 
 .posts > .post {
   padding-bottom: 02em;
-  border-bottom: 01px solid $lightGray;
+  // border-bottom: 01px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -568,11 +568,16 @@ a.nav-menu-item:focus {
   }
 }
 
+// .wrapper-footer {
+//   margin-top: 30px;
+//   border-top: 01px solid #ddd;
+//   border-bottom: 01px solid #ddd;
+//   background-color: $lightGray;
+// }
+
 .wrapper-footer {
   margin-top: 30px;
-  border-top: 01px solid #ddd;
-  border-bottom: 01px solid #ddd;
-  background-color: $lightGray;
+  background-color: $darkGray;
 }
 
 footer {
