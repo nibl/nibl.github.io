@@ -30,11 +30,14 @@ navigation_links:
   - title: Home
     url: /
 
+  - title: Search
+    url: /search
+    
   - title: About
     url: /about
 
-  - title: Search
-    url: /search
+  - title: Contact
+    url: /contact
 
 # Footer icons
 footer_links:
