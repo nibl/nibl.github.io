@@ -22,7 +22,9 @@
       .site-description {
   color: $white;
   }
+  }
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     background-color: white;
