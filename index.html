@@ -5,14 +5,16 @@ layout: default
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
+     <a href="{{ site.baseurl }}{{ post.url }}">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1>{{ post.title }}</h1>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&nbsp;&#183;{% include read-time.html content=post.content %}</a>
+      <span class="read-more">Read more&nbsp;&nbsp;&#183;{% include read-time.html content=post.content %}</span>
+  </a>
     </article>
   {% endfor %}
 
