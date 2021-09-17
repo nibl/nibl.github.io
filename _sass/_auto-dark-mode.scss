@@ -1,6 +1,6 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
-	:root {
+		body, footer, header {
 		background-color:#000;
 		color:#ccc
 	}
@@ -20,7 +20,7 @@
       color: $lightGray;
       }
       .site-description {
-  color: $white;
+  color: #d7d7d7;
   }
   }
 }
