@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 version: 1.1
+foobar: hellothere
 permalink: /hw/
 categories: [content, demo]
 ---
