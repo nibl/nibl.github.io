@@ -72,8 +72,8 @@ color: $lightGray;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    background-color: white;
+  body, footer, header {
+   background-color: white;
     color: black;
   }
   a{
