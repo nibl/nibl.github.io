@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World
+permalink: /hw/
 categories: [content, demo]
 ---
 
