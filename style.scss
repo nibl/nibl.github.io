@@ -454,7 +454,7 @@ a[href^="#fnref:"] {
 
   a {
     &:hover {
-      color: $mahogany !important;
+      color: $lightBlue !important;
       text-decoration: none;
     }
     &:visited {
@@ -508,7 +508,7 @@ nav {
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: $mahogany;
+  color: $lightBlue;
 }
 
 .clearfix:before,
@@ -525,6 +525,9 @@ a.nav-menu-item:focus {
 // .main
 //
 
+.entry {
+  margin-bottom: 5rem;
+}
 .posts > .post {
   padding-bottom: 02em;
   // border-bottom: 01px solid $lightGray;
@@ -536,8 +539,6 @@ a.nav-menu-item:focus {
 }
 
 .post {
- margin-bottom: 10rem;
- 
   .comments {
     margin-top: 10px;
   }
@@ -545,19 +546,19 @@ a.nav-menu-item:focus {
   .read-more {
     text-transform: uppercase;
     font-size: 14px !important;
-    color: $mahogany;
+    color: $lightBlue;
 
     a {
-      color: $mahogany;
+      color: $lightBlue;
       text-decoration: none;
     }
 
       &:visited {
-        color: $mahogany;
+        color: $lightBlue;
       }
 
         &:hover {
-          color: $mahogany;
+          color: $lightBlue;
           text-decoration: underline;
         }
   }
@@ -565,7 +566,7 @@ a.nav-menu-item:focus {
   .reading-time {
     text-transform: uppercase;  
     font-size: 14px !important;
-    color: $mahogany;
+    color: $lightBlue;
   }
 }
 

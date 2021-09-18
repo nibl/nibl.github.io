@@ -1,8 +1,8 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
  body, footer, header {
- background-color:#000;
-color:#ccc;
+ background-color: $black;
+color: $lightGray;
  }
  
   a{
@@ -73,8 +73,8 @@ color: $lightGray;
 
 @media (prefers-color-scheme: light) {
   body, footer, header {
-   background-color: white;
-    color: black;
+   background-color: $white;
+    color: $black;
   }
   a{
    color:$lightBlue;
