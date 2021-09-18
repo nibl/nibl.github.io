@@ -135,13 +135,13 @@ hr {
 }
 
 .date {
-  font-weight: bold;
+  // font-weight: bold;
   color: $gray;
   margin-top: 30px;
 }
 
 .post-categories {
-  font-weight: bold;
+  // font-weight: bold;
   color: $gray;
   margin-top: 15px;
 
@@ -174,13 +174,13 @@ hr {
 }
 
 .share-post {
-  font-weight: bold;
+  //font-weight: bold;
   color: $gray;
   margin-top: 15px;
   }
 
 .no-comments {
-  font-weight: bold;
+  //font-weight: bold;
   color: $gray;
   margin-top: 15px;
 }
@@ -191,7 +191,7 @@ hr {
   .related-posts-heading{
     margin: 0;
     padding: 0;
-    font-weight: bold;
+    //font-weight: bold;
     color: $gray;
   }
 }
@@ -209,7 +209,7 @@ hr {
       .post-nav-label {
         margin: 0;
         padding: 0;
-        font-weight: bold;
+        //font-weight: bold;
         color: $gray;
       }
 
@@ -226,7 +226,7 @@ hr {
 }
 
 .category-head {
-  font-weight: bold;
+  //font-weight: bold;
   //font-style: italic;
   color: $gray;
 }
@@ -536,7 +536,8 @@ a.nav-menu-item:focus {
 }
 
 .post {
-
+ margin-bottom: 10rem;
+ 
   .comments {
     margin-top: 10px;
   }
