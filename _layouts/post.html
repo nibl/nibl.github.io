@@ -5,8 +5,12 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="entry">
+  <div class="entry" style="margin-bottom: 1em">
     {{ content }}
+  </div>
+  
+  <div class="date">
+    <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>&nbsp;Version:<span font-weight: normal;">&nbsp;{{ page.version }}</span>
   </div>
 
   <div class="date">

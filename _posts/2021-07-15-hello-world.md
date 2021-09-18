@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World
+version: 1.1
 permalink: /hw/
 categories: [content, demo]
 ---
