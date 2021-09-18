@@ -539,6 +539,10 @@ a.nav-menu-item:focus {
 }
 
 .post {
+  
+  h1 {
+    text-align: center;
+  }
   .comments {
     margin-top: 10px;
   }
@@ -549,16 +553,16 @@ a.nav-menu-item:focus {
     color: $lightBlue;
 
     a {
-      color: $lightBlue;
+      color: $darkgray ;
       text-decoration: none;
     }
 
       &:visited {
-        color: $lightBlue;
+        color: $darkgray;
       }
 
         &:hover {
-          color: $lightBlue;
+          color: $darkgray;
           text-decoration: underline;
         }
   }
