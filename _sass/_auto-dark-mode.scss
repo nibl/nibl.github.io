@@ -1,9 +1,9 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
 		body, footer, header {
-		background-color:#000;
-		color:#ccc
-	}
+ background-color:#000;
+color:#ccc;
+ }
 	a{
 		color:#d7d7d7
 	}
@@ -13,21 +13,38 @@
 	h1,h2,h3,h4,h5,h6,a{
         color: $lightBlue;
 	}
-	.social-icon {
+	
+  .social-icon {
     color: $paleGray;
     
       &:hover {
       color: $lightGray;
       }
+     }
       
-      .site-name {
+   .site-name {
   margin: 0;
   color: $lightBlue;
   }
-      .site-description {
+   .site-description {
   color: $lightGray;
   }
+  
+  .site-info h1 a {
+  color: $lightBlue;
   }
+  
+.nav-menu-item.active,
+a.nav-menu-item:focus {
+  text-decoration: none;
+  color: $lightBlue;
+}
+
+.wrapper-footer {
+background-color: $black;
+color: $lightGray;
+}
+
 }
 
 @media (prefers-color-scheme: light) {
