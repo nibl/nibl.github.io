@@ -45,6 +45,12 @@ background-color: $black;
 color: $lightGray;
 }
 
+input {
+    &[type=text] {
+  color: $white;
+    }
+  }
+
 }
 
 @media (prefers-color-scheme: light) {
