@@ -51,7 +51,13 @@ input {
     }
   }
 
-.date, .post-categories, . share-post {
+.date {
+color: $lightGray;
+}
+.post-categories {
+color: $lightGray;
+}
+.share-post {
 color: $lightGray;
 }
 
