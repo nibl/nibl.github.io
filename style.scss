@@ -553,16 +553,16 @@ a.nav-menu-item:focus {
     color: $lightBlue;
 
     a {
-      color: $darkgray ;
+      color: $darkGray ;
       text-decoration: none;
     }
 
       &:visited {
-        color: $darkgray;
+        color: $darkGray;
       }
 
         &:hover {
-          color: $darkgray;
+          color: $darkGray;
           text-decoration: underline;
         }
   }
