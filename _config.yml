@@ -28,7 +28,7 @@ baseurl: ""
 # Navigation menu
 navigation_links:
   - title: Home
-    url: /
+   url: /
     
   - title: Search
     url: /search
@@ -39,8 +39,6 @@ navigation_links:
   - title: Contact
     url: /contact
     
-   - title: Archive
-   url: /categories
    
 # Footer icons
 footer_links:
