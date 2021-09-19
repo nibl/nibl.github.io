@@ -28,19 +28,16 @@ baseurl: ""
 # Navigation menu
 navigation_links:
   - title: Home
-  url: /
+    url: /
 
   - title: Search
-  url: /search
-
+    url: /search
+    
   - title: About
-  url: /about
+    url: /about
 
   - title: Contact
-  url: /contact
-
-   - title: Archive
-   url: /categories
+    url: /contact
 
 # Footer icons
 footer_links:
