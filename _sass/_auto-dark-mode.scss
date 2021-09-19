@@ -1,7 +1,7 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
  body, footer, header, p {
- background-color: $offBlack;
+ background-color: $almostBlack;
  color: $lightGray;
  }
  
