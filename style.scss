@@ -243,9 +243,10 @@ hr {
 blockquote {
   background-color: $white;
   color: $gray;
-  border-left: 04px solid #eeeeee;
-  padding-left: 15px;
-  font-size: 16px !important;
+  border-left: 3px solid $lightBlue;
+  padding-left: 10px;
+  margin-left: 5px;
+  font-size: 1.25rem !important;
   font-style: italic;
 
   > :last-child {

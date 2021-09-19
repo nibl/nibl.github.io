@@ -1,6 +1,6 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
- body, footer, header, div, p {
+ body, footer, header {
  background-color: $almostBlack;
  color: $lightGray;
  }
@@ -25,6 +25,10 @@
    text-decoration: none;
 }
 	
+.entry > blockquote {
+   background-color: $almostBlack;
+}
+
   .social-icon {
     color: $paleGray;
      }
@@ -48,7 +52,6 @@ a.nav-menu-item:focus {
   text-decoration: none;
   color: $mahogany;
 }
-
 
 input {
     &[type=text] {
@@ -81,7 +84,7 @@ color: $lightGray;
 }
 
 @media (prefers-color-scheme: light) {
-  body, footer, header, div, p {
+  body, footer, header {
  background-color: $lightGray;
  color: $darkGray;
  }
@@ -106,6 +109,10 @@ color: $lightGray;
    text-decoration: none;
 }
 	
+.entry > blockquote {
+   background-color: $lightGray;
+}
+
   .social-icon {
     color: $paleGray;
      }
