@@ -29,7 +29,7 @@ baseurl: ""
 navigation_links:
   - title: Home
     url: /
-
+    
   - title: Search
     url: /search
     
@@ -39,8 +39,9 @@ navigation_links:
   - title: Contact
     url: /contact
     
-   - title: Movies | Tech | Art
-   url: /categories/
+   - title: Archive
+   url: /categories
+   
 # Footer icons
 footer_links:
   - title: Feed
