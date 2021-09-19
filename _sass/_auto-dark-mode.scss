@@ -1,7 +1,7 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
  body, footer, header, p {
- background-color: $darkGray;
+ background-color: $offBlack;
  color: $lightGray;
  }
  
@@ -50,10 +50,10 @@ a.nav-menu-item:focus {
   color: $lightBlue;
 }
 
-.wrapper-footer {
-background-color: $darkGray;
-color: $lightGray;
-}
+// .wrapper-footer {
+// background-color: $darkGray;
+// color: $lightGray;
+// }
 
 input {
     &[type=text] {
@@ -132,10 +132,10 @@ a.nav-menu-item:focus {
   color: $lightBlue;
 }
 
-.wrapper-footer {
-background-color: $darkGray;
-color: $darkGray;
-}
+// .wrapper-footer {
+// background-color: $darkGray;
+// color: $darkGray;
+// }
 
 input {
     &[type=text] {

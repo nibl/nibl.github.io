@@ -1,12 +1,3 @@
 {% for item in site.navigation_links %}
   <a class="nav-menu-item{% if page.url == item.url %} active{% endif %}"<a href="{{ item.url }}">{{ item.title }}</a>
 {% endfor %}
-
-<br />
-<span style="margin-top: 15px">
-<a class="nav-menu-item" href="https://nibl.github.io/categories/#movies">Movies</a>
-<a class="nav-menu-item" href="https://nibl.github.io/categories/#tech">Tech</a>
-<a class="nav-menu-item" href="https://nibl.github.io/categories/#misc">Misc</a>
-</span>
-
-
