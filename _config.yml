@@ -38,6 +38,9 @@ navigation_links:
 
   - title: Contact
     url: /contact
+    
+  - title: Categories
+    url: /categories
 
 # Footer icons
 footer_links:

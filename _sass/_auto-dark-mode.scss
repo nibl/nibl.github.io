@@ -1,6 +1,6 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
- body, footer, header, p {
+ body, footer, header, div, p {
  background-color: $almostBlack;
  color: $lightGray;
  }
@@ -46,7 +46,7 @@
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: $lightBlue;
+  color: $mahogany;
 }
 
 
@@ -56,7 +56,10 @@ input {
     }
   }
 
-.category-head {
+.post-nav-label {
+  color: $lightGray;    
+}
+.related-posts-heading {
 color: $lightGray;
 }
 .version {
@@ -74,16 +77,11 @@ color: $lightGray;
 .post-nav-label {
 color: $lightGray;
 }
-.related-posts-heading {
-color: $lightGray;
-}
-
-
 
 }
 
 @media (prefers-color-scheme: light) {
-  body, footer, header, p {
+  body, footer, header, div, p {
  background-color: $lightGray;
  color: $darkGray;
  }
@@ -139,7 +137,7 @@ input {
     }
   }
 
-.category-head {
+.related-posts-heading {
 color: $darkGray;
 }
 .version {
@@ -155,9 +153,6 @@ color: $darkGray;
 color: $darkGray;
 }
 .post-nav-label {
-color: $darkGray;
-}
-.related-posts-heading {
 color: $darkGray;
 }
 
