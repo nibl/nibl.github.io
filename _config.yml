@@ -39,15 +39,8 @@ navigation_links:
   - title: Contact
     url: /contact
     
-   - title: Movies
-    url: /categories/\#movies
-    
-  - title: Tech
-    url: /categories/\#tech
-
-  - title: Art
-  url: /categories/\#art 
-    
+   - title: Movies | Tech | Art
+   url: /categories/
 # Footer icons
 footer_links:
   - title: Feed
