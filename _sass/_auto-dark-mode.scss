@@ -5,12 +5,13 @@
 color: $lightGray;
  }
  
-  a{
+  a {
    color:$lightBlue;
   }
-	a:visited{
-	 color:$lightBlue;
-	}
+  a:visited {
+   color:$lightBlue;
+  }
+    
 	h1,h2,h3,h4,h5,h6 {
   color: $lightBlue;
 	}
@@ -76,10 +77,22 @@ color: $lightGray;
    background-color: $white;
     color: $black;
   }
-  a{
-   color:$lightBlue;
+  
+  .container {
+    background-color: $white;
   }
-	a:visited{
+  
+  a {
+   color:$lightBlue;
+   text-decoration: none;
+  }
+	a:visited {
 	 color:$lightBlue;
+     text-decoration: none;
 	}
+    
+   .entry > p {
+   color: $darkGray;
+   text-decoration: none;
+   }
 }
