@@ -1,8 +1,8 @@
 /* Automatic dark/light mode detection */
 @media(prefers-color-scheme:dark){
- body, footer, header {
- background-color: $black;
-color: $lightGray;
+ body, footer, header, p {
+ background-color: $darkGray;
+ color: $lightGray;
  }
  
   a {
@@ -11,10 +11,19 @@ color: $lightGray;
   a:visited {
    color:$lightBlue;
   }
+  a:hover {
+   color: $lightBlue;
+   text-decoration: underline;
+      }
     
 	h1,h2,h3,h4,h5,h6 {
   color: $lightBlue;
 	}
+    
+    .entry > p {
+   color: $lightGray;
+   text-decoration: none;
+}
 	
   .social-icon {
     color: $paleGray;
@@ -42,13 +51,13 @@ a.nav-menu-item:focus {
 }
 
 .wrapper-footer {
-background-color: $black;
+background-color: $darkGray;
 color: $lightGray;
 }
 
 input {
     &[type=text] {
-  color: $white;
+    color: $lightGray;
     }
   }
 
@@ -73,26 +82,81 @@ color: $lightGray;
 }
 
 @media (prefers-color-scheme: light) {
-  body, footer, header {
-   background-color: $white;
-    color: $black;
-  }
-  
-  .container {
-    background-color: $white;
-  }
-  
+  body, footer, header, p {
+ background-color: $lightGray;
+ color: $darkGray;
+ }
+ 
   a {
    color:$lightBlue;
-   text-decoration: none;
   }
-	a:visited {
-	 color:$lightBlue;
-     text-decoration: none;
+  a:visited {
+   color:$lightBlue;
+  }
+  a:hover {
+   color: $lightBlue;
+   text-decoration: underline;
+      }
+    
+	h1,h2,h3,h4,h5,h6 {
+  color: $lightBlue;
 	}
     
-   .entry > p {
+    .entry > p {
    color: $darkGray;
    text-decoration: none;
-   }
+}
+	
+  .social-icon {
+    color: $paleGray;
+    
+      &:hover {
+      color: $darkGray;
+      }
+     }
+      
+   .site-name {
+  color: $lightBlue;
+  }
+   .site-description {
+  color: $darkGray;
+  }
+  
+  .site-info h1 a {
+  color: $lightBlue;
+  }
+  
+.nav-menu-item.active,
+a.nav-menu-item:focus {
+  text-decoration: none;
+  color: $lightBlue;
+}
+
+.wrapper-footer {
+background-color: $darkGray;
+color: $darkGray;
+}
+
+input {
+    &[type=text] {
+    color: $darkGray;
+    }
+  }
+
+.date {
+color: $darkGray;
+}
+.post-categories {
+color: $darkGray;
+}
+.share-post {
+color: $darkGray;
+}
+.post-nav-label {
+color: $darkGray;
+}
+.related-posts-heading {
+color: $darkGray;
+}
+
 }

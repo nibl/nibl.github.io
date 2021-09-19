@@ -486,7 +486,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $lightBlue;
     text-align: right;
     font-weight: 300;
     letter-spacing: 01px;
@@ -500,7 +500,7 @@ nav {
       }
         @include mobile {
           margin: 0 10px;
-          color: $blue;
+          color: $lightBlue;
         }
   }
 }
@@ -550,7 +550,7 @@ a.nav-menu-item:focus {
     color: $lightBlue;
 
     a {
-      color: $darkGray ;
+      color: $lightBlue ;
       text-decoration: none;
     }
 
