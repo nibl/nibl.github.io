@@ -27,12 +27,11 @@
 	
   .social-icon {
     color: $paleGray;
-    
-      &:hover {
-      color: $lightGray;
-      }
      }
-      
+     
+ .post-nav-label {
+  color: $lightGray;    
+    }
    .site-name {
   color: $lightBlue;
   }
@@ -50,10 +49,6 @@ a.nav-menu-item:focus {
   color: $lightBlue;
 }
 
-// .wrapper-footer {
-// background-color: $darkGray;
-// color: $lightGray;
-// }
 
 input {
     &[type=text] {
@@ -115,12 +110,12 @@ color: $lightGray;
 	
   .social-icon {
     color: $paleGray;
-    
-      &:hover {
-      color: $darkGray;
-      }
      }
-      
+    
+   .post-nav-label {
+  color: $darkGray;    
+}  
+     
    .site-name {
   color: $lightBlue;
   }
@@ -137,11 +132,6 @@ a.nav-menu-item:focus {
   text-decoration: none;
   color: $lightBlue;
 }
-
-// .wrapper-footer {
-// background-color: $darkGray;
-// color: $darkGray;
-// }
 
 input {
     &[type=text] {
