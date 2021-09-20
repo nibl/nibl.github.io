@@ -41,6 +41,12 @@ navigation_links:
     
   - title: Categories
     url: /categories
+    
+# Collections
+
+collections:
+    movies:
+      output: true
 
 # Footer icons
 footer_links:
