@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Hello World
-version: 1.1
+version: 1.0
 foobar: hellothere
-permalink: /hw/
-categories: [content, demo, foo, bar]
+categories: [content, demo]
 ---
 
 Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  
