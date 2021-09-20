@@ -6,6 +6,8 @@ foobar: hellothere
 categories: [content, demo]
 ---
 
+# Version 1.0
+
 Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  
 This post will demonstrate some of the more common content & elements found in posts.  
 Feel free to delete this post when you are ready to publish your first post.  
