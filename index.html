@@ -10,7 +10,7 @@ layout: default
 {% for movie in site.movies %}
   {% increment my_counter %}
   <p>counter: {{my_counter}}</p>
-    {% if my_counter > 2 %}
+    {% if my_counter > 3 %}
       {% break %}
     {% endif %}
     <li>
