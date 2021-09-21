@@ -2,6 +2,22 @@
 layout: default
 ---
 
+
+<!-- Output first three movies in collection  -->
+<h1>Latest 3 Movie Reviews</h1>
+{% for movie in site.movies %}
+  {% increment my_counter %}
+  <p>counter: {{my_counter}}</p>
+    {% if my_counter > 2 %}
+      {% break %}
+    {% endif %}
+  <ol>
+    <li>
+      <h2><a href="{{ movie.url }}">{{ movie.title }}</a></h2>
+    </li>
+</ol>
+ {% endfor %}
+  
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
