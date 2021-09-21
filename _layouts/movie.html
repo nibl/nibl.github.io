@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="movie">
+  <h1>{{ page.title }} ({{ page.year }})</h1>
+  
+ {% if page.original_title != "" and page.original_title != nil %}
+ <em>Original Title:{{page.original_title}}</em>
+ {% endif %}
+ 
+  <div class="movie-synopsis">
+    {{ page.synopsis }}
+  </div>
+
+  <div>
+    {{ content }}
+  </div>
+
+</article>
