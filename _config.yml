@@ -59,6 +59,10 @@ defaults:
       type: "movies"
     values:
         layout: "movie"
+  - scope:
+      path: ""
+    values:
+        layout: "default"
 
 # Footer icons
 footer_links:
