@@ -47,6 +47,18 @@ navigation_links:
 collections:
     movies:
       output: true
+      
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "movies"
+    values:
+        layout: "movie"
 
 # Footer icons
 footer_links:
