@@ -39,9 +39,6 @@ navigation_links:
   - title: Contact
     url: /contact
     
-  - title: Categories
-    url: /categories
-    
   - title: Movies
     url: /movies.html
     
