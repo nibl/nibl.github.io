@@ -1,0 +1,16 @@
+---
+layout: default
+title: Movies
+---
+<h1>Movies</h1>
+
+<ul>
+  {% for movie in site.movies %}
+    <li>
+      <h2><a href="{{ movie.url }}">{{ movie.title }}</a></h2>
+      <h3>{{ movie.director }}</h3>
+      <h4>{{ movie.rating }}</h4>
+      <p>{{ movie.synopsis | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

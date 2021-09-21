@@ -42,6 +42,9 @@ navigation_links:
   - title: Categories
     url: /categories
     
+  - title: Movies
+    url: /movies.html
+    
 # Collections
 
 collections:
