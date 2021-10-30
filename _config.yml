@@ -46,7 +46,35 @@ navigation_links:
 
 collections:
     movies:
-      output: true
+     output: true
+    
+    # avengers  
+    a:
+     output: true
+     
+    # bond   
+    b:
+     output: true
+    
+    # fun
+    f:
+     output: true
+    
+    # interviews
+    i:
+     output: true
+     
+    # lists
+    l:
+     output: true
+      
+    # suggestions, spoiler-light
+    s:
+     output: true
+    
+    # reviews
+    r:
+     output: true
       
 defaults:
   - scope:
