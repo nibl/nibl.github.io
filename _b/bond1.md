@@ -2,7 +2,7 @@
 title: Dr No
 original_title:
 year: 1962
-director: Terrence 
+director: Terrence Young
 country: UK
 actors: [Sean Connery]
 synopsis: Bond's first on screen mission
