@@ -50,7 +50,7 @@ collections:
     
     # avengers  
     a:
-     output: true
+     # output: true
      
     # bond   
     b:
