@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 version: 1.1
 foobar: hellothere
-categories: [b, movies]
+category: b
 # permalink: /hw/
 ---
 
