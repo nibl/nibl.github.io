@@ -3,8 +3,8 @@ layout: post
 title: Hello World
 version: 1.1
 foobar: hellothere
-permalink: /hw/
-categories: [content, demo, foo, bar]
+categories: [b, movies]
+# permalink: /hw/
 ---
 
 Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  
