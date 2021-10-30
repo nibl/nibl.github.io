@@ -1,6 +1,7 @@
 ---
 title: Hello World
 version: 1.1
+category: a
 ---
 
 Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  
